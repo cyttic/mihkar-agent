@@ -1,0 +1,2 @@
+Our question: How do developers in one fintech company decide whether to accept or reject code suggestions from an AI assistant?
+You proposed a field study for it. That is a bad strategy, because a field study cannot generalize statistically. Replace it with a better one.

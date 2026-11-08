@@ -1,0 +1,2 @@
+Our question: How do newcomers to an open-source project learn its code review norms?
+We chose interviews with newcomers as our research strategy. Check our choice.

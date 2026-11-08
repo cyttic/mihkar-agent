@@ -1,3 +1,3 @@
-בדוק את השאלה וההשערה הבאות.
-שאלה: האם סקירת קוד מפחיתה באגים בפרויקטים פתוחים?
-השערה: האם פרויקטים עם סקירת קוד יש בהם פחות באגים?
+Check the following question and hypothesis.
+Question: Does code review reduce bugs in open-source projects?
+Hypothesis: Do projects with code review have fewer bugs?

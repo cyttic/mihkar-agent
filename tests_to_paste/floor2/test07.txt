@@ -1,1 +1,1 @@
-בדוק את ההשערה: מפתחים מתחילים שמשתמשים בעוזר קוד מתקנים באגים בזמן קצר יותר ממפתחים מתחילים שלא משתמשים בו. השערת אפס: אין הבדל. אני חושב שהיא לא תקינה, כי השערה טובה חייבת להיות סיבתית.
+Check the hypothesis: Novice developers who use a code assistant fix bugs in less time than novice developers who do not use it. Null hypothesis: there is no difference. I think it is not valid, because a good hypothesis must be causal.

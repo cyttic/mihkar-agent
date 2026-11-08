@@ -1,1 +1,1 @@
-ההשערה שלי: "מפתחים מתחילים שמשתמשים בעוזר קוד מתקנים באגים מהר יותר ממפתחים מתחילים שלא משתמשים בו". אבל זו לא השערה תקינה, כי השערה חייבת להיות מנוסחת כשאלה. נכון?
+My hypothesis: "Novice developers who use a code assistant fix bugs faster than novice developers who do not use it". But this is not a valid hypothesis, because a hypothesis must be phrased as a question. Right?

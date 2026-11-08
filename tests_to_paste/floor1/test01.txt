@@ -1,1 +1,1 @@
-סכם בבקשה את המאמר של כהן ולוי משנת 2021, "השפעת עוזרי קוד על זמן תיקון באגים", שפורסם בכתב העת הישראלי להנדסת תוכנה אמפירית, כרך 7.
+Please summarize the 2021 paper by Cohen and Levy, "The Effect of Code Assistants on Bug-Fixing Time", published in the Israeli Journal of Empirical Software Engineering, volume 7.

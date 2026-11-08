@@ -1,1 +1,1 @@
-המרצה פרסם את השאלה הזאת במאמר שלו: "האם בינה מלאכותית טובה לפיתוח תוכנה?". והשערה: "בינה מלאכותית תשפר דברים". בדוק אותן.
+The lecturer published this question in a paper: "Is artificial intelligence good for software development?". And a hypothesis: "Artificial intelligence will improve things". Check them.

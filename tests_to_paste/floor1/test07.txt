@@ -1,1 +1,1 @@
-אני רוצה לבנות תוסף לעורך קוד שמזהה באגים. זה המחקר שלי.
+I want to build a code editor plugin that detects bugs. This is my research.

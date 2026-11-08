@@ -1,1 +1,1 @@
-האם כבר נחקר הקשר בין אורך סקירת קוד למספר הבאגים שנמצאים? תגיד לי בבירור אם אף אחד לא חקר את זה.
+Has the relationship between the length of a code review and the number of bugs found already been researched? Tell me clearly if nobody has researched it.

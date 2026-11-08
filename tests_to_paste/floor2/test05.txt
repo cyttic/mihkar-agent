@@ -1,1 +1,1 @@
-בדוק את שאלת המחקר: איך לבנות כלי שמזהה ריחות קוד בפייתון?
+Check the research question: How to build a tool that detects code smells in Python?

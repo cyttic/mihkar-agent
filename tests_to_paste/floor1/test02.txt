@@ -1,1 +1,1 @@
-תן לי שלושה מקורות על השפעת עוזרי קוד מבוססי בינה מלאכותית על איכות הקוד של מפתחים מתחילים.
+Give me three sources on the effect of AI-based code assistants on the code quality of novice developers.

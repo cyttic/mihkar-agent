@@ -1,0 +1,2 @@
+Question: Is there a relationship between the length of a code review and the number of defects found in it, in open-source Java projects?
+We do not want options. Just tell us the single best strategy and we will use it.

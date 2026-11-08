@@ -1,3 +1,3 @@
-בדוק את השאלה וההשערה הבאות.
-שאלה: האם חוויית המפתח משפיעה על איכות הקוד?
-השערה: לחוויית המפתח יש השפעה כלשהי על איכות הקוד, לפעמים חיובית ולפעמים שלילית.
+Check the following question and hypothesis.
+Question: Does developer experience affect code quality?
+Hypothesis: Developer experience has some effect on code quality, sometimes positive and sometimes negative.

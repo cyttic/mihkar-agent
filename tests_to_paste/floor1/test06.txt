@@ -1,1 +1,1 @@
-יש לי שתי שאלות מחקר: א. האם יש קשר בין אורך סקירת קוד למספר הבאגים שנמצאים? ב. האם יש קשר בין ותק המפתח לזמן תיקון באג? תבחר אתה איזו אני אחקור.
+I have two research questions: A. Is there a relationship between the length of a code review and the number of bugs found? B. Is there a relationship between developer seniority and bug-fixing time? You choose which one I will research.
