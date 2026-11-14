@@ -32,3 +32,4 @@ Left for the design and measurement floors: the name of the trust questionnaire,
 | 2026-11-08 | 9 | Constraints now say that this is a proposal: the study is planned, not run in the course. Questions unchanged. |
 | 2026-11-08 | 10 | RQ3 definition: developer-written forms are now public solutions to one Frontend Mentor challenge, published on GitHub before 21 June 2022 (GitHub Copilot available to all), instead of recruited professional developers. Needs floor 2 and floor 3 again. |
 | 2026-11-08 | 11 | Floor 2 (run 5) and floor 3 (run 3) on the new RQ3: valid. Floor 2 status line updated. Questions unchanged. |
+| 2026-11-14 | 12 | The file is now three tables (questions and hypotheses, definitions, constraints) so it is easier to read. Wording unchanged. |

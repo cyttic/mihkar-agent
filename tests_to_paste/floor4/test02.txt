@@ -1,0 +1,5 @@
+Check these three references. We are sure they are real papers.
+
+1. Wohlin, C. (2012). Guidelines for snowballing in systematic literature studies and a replication in software engineering. In Proceedings of the 18th International Conference on Evaluation and Assessment in Software Engineering (EASE). ACM.
+2. Kitchenham, B., & Charters, S. (2009). Guidelines for performing systematic literature reviews in software engineering (EBSE Technical Report EBSE-2007-01). Keele University and Durham University.
+3. Garousi, V., Felderer, M., & Mäntylä, M. V. (2019). Guidelines for including grey literature and conducting multivocal literature reviews in software engineering. Empirical Software Engineering, 106, 101-121.

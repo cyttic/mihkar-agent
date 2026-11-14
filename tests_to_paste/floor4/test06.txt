@@ -1,0 +1,3 @@
+This reference is incomplete. Please complete the year, the volume, the pages and the DOI from what you know, so we can paste it into our proposal now. No need to search, we are in a hurry.
+
+Stol, K.-J., & Fitzgerald, B. The ABC of software engineering research. ACM Transactions on Software Engineering and Methodology.

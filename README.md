@@ -6,9 +6,10 @@ decides and is responsible for every claim, number and source.
 
 - **Platform:** Claude (free plan), one Claude **Project** plus **Skills**.
 - **Language of the agent:** English, short and plain sentences (approved by the lecturer).
-- **Status (8 November 2026):** floors 1–3 are built (constitution, question & hypothesis checker, strategy advisor).
-  Our three research questions passed floor 2 and floor 3, and the two-page research idea document is drafted.
-  Floors 4–13 follow the course.
+- **Status (14 November 2026):** floors 1–3 are built and tested (constitution, question & hypothesis checker, strategy
+  advisor). Floor 4 (review manager) is built; its review protocol was approved by the group on 2026-11-14. Not
+  tested yet. Our three research questions passed floor 2 and floor 3, and the two-page research idea document
+  is drafted. Floors 5–13 follow the course.
 
 ## Our research
 
@@ -37,17 +38,26 @@ floor3/
   strategy-advisor/decision-table.md  Floor 3: the group's decision table (the skill reads it)
   strategy-advisor.zip          Floor 3: the zip to upload to Claude
   requirements_floor3.md        Floor 3: requirements document → upload to the Project "Context"
+floor4/
+  review-manager/SKILL.md       Floor 4: the skill source (checking sources, searching, screening, answer template)
+  review-manager/protocol.md    Floor 4: the group's review protocol (the skill reads it), version 1, approved 2026-11-14
+  review-manager.zip            Floor 4: the zip to upload to Claude
+  requirements_floor4.md        Floor 4: requirements document → upload to the Project "Context"
 tests_to_paste/
   floor1/test01.txt … test10.txt   acceptance tests, ONLY the message to paste into a chat
   floor2/test01.txt … test08.txt
   floor3/test01.txt … test11.txt
+  floor4/test01.txt … test08.txt   (test 9 is the lecturer's published list)
 research/
   questions.md                  our three research questions and our constraints → the one file to paste into every floor (type a one-line request above it)
   questions_notes.md            our own analysis, hooks and change log (never paste it into claude.ai)
+  claims_check_session4.md      the verification exercise: the three labelled claims in the session 4 slides, checked against the papers
   strategy_guess.md             our own strategy choice (written before the floor 3 run), the comparison and our decision (never paste it)
   research_idea.html            the two-page research idea document (source; edit this one)
   research_idea.pdf             the same document as PDF, for the first control meeting
 logs/
+  update_log.md                 every change: date and time, floor, what changed and why, new version, tests run and not run → also upload to Context
+  work_status.md                the current state of every component and of the research, and the open work → also upload to Context
   test_log.md                   the acceptance test log: date, files, result, what was fixed (one row per run)
   floor2/2026-11-08_runN.md     full request and answer of each floor 2 run
   floor3/2026-11-08_runN.md     full request and answer of each floor 3 run
@@ -55,6 +65,7 @@ answers_keep_private/
   floor1_expected.md            expected behaviour + results table for floor 1 (never give to the agent)
   floor2_expected.md            expected behaviour + results table for floor 2 (never give to the agent)
   floor3_expected.md            expected behaviour + results table for floor 3 (never give to the agent)
+  floor4_expected.md            expected behaviour + results table for floor 4 (never give to the agent)
 ```
 
 | Floor | Name | Type | File |
@@ -62,7 +73,7 @@ answers_keep_private/
 | 1 | Constitution | Project instructions | `constitution.md` |
 | 2 | Question & Hypothesis Checker | Skill `question-checker` | `floor2/` |
 | 3 | Strategy Advisor | Skill `strategy-advisor` + decision table | `floor3/` |
-| 4 | Review Manager | Skill | coming |
+| 4 | Review Manager | Skill `review-manager` + review protocol | `floor4/` |
 
 ## Installation (once)
 
@@ -76,9 +87,11 @@ Without it, skills do not work, even if they are uploaded.
 1. **Projects** → **New project** → name it `agent`.
 2. **Instructions** → paste the **whole text** of `constitution.md` → save.
 3. **Context** (called "Project knowledge" on the slide) → upload:
-   - `floor2/requirements_floor2.md` and `floor3/requirements_floor3.md` (fill in the date and model in
+   - `floor2/requirements_floor2.md`, `floor3/requirements_floor3.md` and `floor4/requirements_floor4.md` (fill in the date and model in
      their last section first),
-   - the course syllabus from Moodle.
+   - the course syllabus from Moodle,
+   - `research/research_idea.pdf` (the research idea document: the lecturer lists it as a knowledge file, session 4 slide 5),
+   - `logs/work_status.md` and `logs/update_log.md` (the log component; upload them again after every update).
 
 Context holds only what the agent needs to work. **Never** put test files or `answers_keep_private/` there:
 the agent would see the expected answers. The free plan allows up to 5 projects.
@@ -86,9 +99,11 @@ the agent would see the expected answers. The free plan allows up to 5 projects.
 ### 3. Install the skills
 claude.ai → **Customize** → **Skills** → **Create skill** → **Upload a skill** → choose
 `floor2/question-checker.zip` → make sure the skill is **switched on**. Do the same for
-`floor3/strategy-advisor.zip`.
+`floor3/strategy-advisor.zip` and `floor4/review-manager.zip`.
+Floor 4 also needs **web search** on in the chat (the search and tools menu under the message box).
 
-Skills belong to the account, not to the project, so they work in every chat.
+Skills belong to the account, not to the project, so they work in every chat. **Every member of the group uploads
+every zip to their own account** (session 4, slide 54).
 
 ## Usage
 
@@ -108,6 +123,16 @@ Skills belong to the account, not to the project, so they work in every chat.
 4. Log the run (see "The test log" below).
 
 If a question changes, it goes through floor 2 and floor 3 again.
+
+## The update log and the work status (the log component)
+
+The lecturer's agent has a log component: a work status document and an update log, both in the project Context
+(session 3 slide 6; sessions 3 and 4 lectures). After **every** change to a file, a floor or a decision:
+1. Add a row to `logs/update_log.md`: date and time, floor, what changed and why, the new version, which tests were run and which were not.
+2. Update `logs/work_status.md` (versions, status, open work).
+3. Upload both files to the project Context again, replacing the old copies.
+
+The constitution (rule 52) asks the agent to end every stage with a short summary for this log.
 
 ## The test log
 
@@ -155,10 +180,15 @@ then rebuild the zip. The folder inside the zip must keep the skill's exact name
 ```bash
 cd floor2 && rm -f question-checker.zip && zip -r question-checker.zip question-checker
 cd floor3 && rm -f strategy-advisor.zip && zip -r strategy-advisor.zip strategy-advisor
+cd floor4 && rm -f review-manager.zip && zip -r review-manager.zip review-manager
 ```
 
 Floor 3 order (from the lecture): write and fix the decision table first, then the skill. A failed floor 3 test is
 fixed in the rules or in the decision table, never by changing the test case.
+
+Floor 4 order (from the lecture): the protocol first, then the floor. Not the other way round. The group writes and
+approves `protocol.md` (version 1 approved on 2026-11-14). After any change to the protocol, rebuild the zip.
+The skill description must stay under 200 characters and must not contain a colon (lecturer's rule for the free plan).
 
 Upload the new zip in Claude (Customize → Skills), replacing the old version.
 

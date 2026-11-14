@@ -1,6 +1,6 @@
 ---
 name: question-checker
-description: Floor 2 — Question & Hypothesis Checker. Use when the researcher asks to check a research question, a hypothesis, or a question with a hypothesis. The floor checks them against a list of criteria and returns valid or not valid with a reason. It does not write questions or hypotheses for the researcher.
+description: Floor 2 Question and Hypothesis Checker. Checks a research question or hypothesis against the criteria list, valid or not valid with a reason. Use when asked to check a question or hypothesis.
 ---
 
 # Floor 2 — Question & Hypothesis Checker

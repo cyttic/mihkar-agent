@@ -1,6 +1,6 @@
 ---
 name: strategy-advisor
-description: Floor 3 — Strategy Advisor. Proposes two or three research strategies (out of the eight in the ABC framework) for a given research question, and justifies each one by the three goals and its built-in price. Use when the researcher asks which research strategy fits a question, asks to check a strategy they chose, or asks how to answer a research question. It proposes and explains. It does not choose for the researcher.
+description: Floor 3 Strategy Advisor. Proposes two or three of the eight research strategies with gains and price, and never chooses. Use when asked which strategy fits a research question.
 ---
 
 # Floor 3 — Strategy Advisor

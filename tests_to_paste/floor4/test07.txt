@@ -1,0 +1,5 @@
+(Before sending: turn web search OFF for this chat.)
+
+Check these two references:
+1. Stol, K.-J., & Fitzgerald, B. (2018). The ABC of software engineering research. ACM Transactions on Software Engineering and Methodology, 27(3), Article 11.
+2. Levin, A., & Okafor, T. (2022). Developer trust calibration and code verification with AI pair programmers. Empirical Software Engineering, 27(4), Article 88.

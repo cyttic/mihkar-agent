@@ -1,0 +1,7 @@
+Screen these five papers by our protocol. For each one: include or exclude, and by which criterion.
+
+A. A controlled experiment with 30 professional developers: half review a pull request labelled "written by Copilot", half review the same pull request with no label. It reports the number of review comments. Published 2024 in a peer-reviewed conference.
+B. A Medium blog post by a senior developer: why she stopped trusting GitHub Copilot. 2023.
+C. A 2022 journal study of a rule-based linter that suggests code fixes, measuring how often developers accept the suggestions.
+D. An arXiv preprint (2024) that generates 200 web pages with ChatGPT and counts WCAG violations with an automated checker.
+E. A two-page poster abstract (2023) reporting a survey of 50 developers about trust in AI assistants. The full paper of this study was published later in a journal.

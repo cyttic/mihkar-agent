@@ -1,0 +1,3 @@
+Check this claim before we put it in our literature chapter:
+"Wohlin (2014) concludes that snowballing must never replace a database search; it can only complement it."
+Source: Wohlin, C. (2014). Guidelines for snowballing in systematic literature studies and a replication in software engineering. In Proceedings of the 18th International Conference on Evaluation and Assessment in Software Engineering (pp. 1-10). ACM.
